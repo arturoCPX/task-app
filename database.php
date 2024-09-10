@@ -1,8 +1,9 @@
 <?php
     //conexion a la base de datos
-    $connection = mysql_connect(
+    $connection = mysqli_connect(
         'localhost',
         'root',
+        'password',
         'tasks/app'
     );
 
